@@ -1,10 +1,6 @@
-# ICONHOVER
-Animated elements are at the about me page.
+# Portfolio
 
-here's the live server: https://raw.githack.com/irvento/PersonalPortfolio/main/pages/index.html
-
-
-IT23B (IT38) Elective 1 (Web System and Technologies)
-
+🎆IT23B (IT38) Elective 1 (Web System and Technologies)
+🎇IT24B Event Driven Programming
 
 IRVEN L. ABARQUEZ
