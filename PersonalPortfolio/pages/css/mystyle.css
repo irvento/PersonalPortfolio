@@ -1,0 +1,88 @@
+.app-nav-btn-active {
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+.navigation{
+    background-color: white;
+    height: 80px;
+}
+.navbutton{
+    color: blue;
+    font-size: xx-large;
+    text-decoration: none;
+    margin: 1%;
+}
+
+
+body{
+    background-color: #000000;
+}
+
+.navigation{
+    background-color: white;
+    height: 80px;
+}
+
+
+.irvenh1{
+    color: #99ccff;
+}
+
+.blackcolor{
+    color: white;
+    transition: transform 0.5s;
+}
+
+.blackcolor:hover{
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+.bigsize{
+    font-size: xx-large;
+}
+
+.homepage{
+    border-radius: 10%;
+    width: 30%;
+}
+
+.icon{
+    border-radius: 5%;
+    width: 50px;
+    box-shadow: 0px 0px 4px 18px rgb(252, 252, 252);
+    transition: transform 1s;
+}
+
+.icon:hover{
+    width: 65px;
+    box-shadow: 0px 0px 4px 18px rgba(174, 174, 174, 0.432);
+}
+
+.ps{
+    margin-left: 10%;
+}
+
+.custom-button {
+    background-color: #000000; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; 
+    background-size: fill;
+  }
+
+  .animation{
+    transition: transform 0.5s;
+  }
+
+  .animation :hover{
+    font-size: larger;
+  }
