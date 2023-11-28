@@ -1,29 +1,23 @@
 .app-nav-btn-active {
     background-color: black;
-    color: white;
-    height: 80px;
+    color: #ffffff;
+    height: 10%;
 }
 .navigation{
     background-color: white;
-    height: 80px;
+    height: 100px;
 }
+
 .navbutton{
     color: blue;
     font-size: xx-large;
     text-decoration: none;
-    margin: 1%;
 }
 
 
 body{
     background-color: #000000;
 }
-
-.navigation{
-    background-color: white;
-    height: 80px;
-}
-
 
 .irvenh1{
     color: #99ccff;
