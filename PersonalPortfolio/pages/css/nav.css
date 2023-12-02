@@ -1,63 +1,63 @@
-.app-nav-btn-active {
-    background-color: black;
-    color: #ffffff;
-    height: 5%;
-}
+    .app-nav-btn-active {
+        background-color: black;
+        color: #ffffff;
+        height: 5%;
+    }
 
-nav {
-    background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0, 0, 0, 0.61) 0%, rgba(255, 255, 255, 0.703) 51%, rgba(0, 0, 0, 0.834) 100%);
-    padding: 20px; /* Increased padding for a larger navigation bar */
-    text-align: right; /* Align the content to the right */
-    height: 65px;
-    position: relative; /* Make sure the ::after pseudo-element is positioned relative to the nav */
-}
+    nav {
+        background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.61) 0%, rgba(255, 255, 255, 0.703) 51%, rgba(0, 0, 0, 0.834) 100%);
+        padding: 20px; /* Increased padding for a larger navigation bar */
+        text-align: right; /* Align the content to the right */
+        height: 65px;
+        position: relative; /* Make sure the ::after pseudo-element is positioned relative to the nav */
+    }
 
-.navigation {
-    display: flex;
-}
+    .navigation {
+        display: flex;
+    }
 
-/* Add a black line in the middle of the navbar */
-nav::after {
-    content: '';
-    position: absolute;
-    top: 10px;
-    bottom: 10  px;
-    left: 50%;
-    border-left: 3px solid black;
-}
+    /* Add a black line in the middle of the navbar */
+    nav::after {
+        content: '';
+        position: absolute;
+        top: 10px;
+        bottom: 10  px;
+        left: 50%;
+        border-left: 3px solid black;
+    }
 
-.nav-button-margin {
-    margin-left: 30%;
-}
+    .nav-button-margin {
+        margin-left: 38%;
+    }
 
-.navbutton {
-    font-weight: bold;
-    text-decoration: none;
-    color: #ffffff;
-    padding: 15px 30px;
-    margin: 0 10px 0 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
+    .navbutton {
+        font-weight: bold;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 15px 30px;
+        margin: 0 10px 0 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.364);
+        transition: background-color 0.3s;
+    }
 
-.navbutton:hover {
-    background-color: #555;
-}
+    .navbutton:hover {
+            background-position: -100% 0;
+        
+            color: #000;
+    }
 
-.navbutton {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.364);
-}
 
-.navname {
-    font-weight: bolder;
-    margin-left: -100px;
-    margin-top: -8px;
-    color: rgb(255, 255, 255);
-    font-size: x-large;
-}
+    .navname {
+        font-weight: bolder;
+        margin-left: -100px;
+        margin-top: -8px;
+        color: rgb(255, 255, 255);
+        font-size: x-large;
+    }
 
-.nav_iconsize {
-    margin-right: 2.5%;
-    width: 10%;
-}
+    .nav_iconsize {
+        margin-right: 2.5%;
+        width: 10%;
+    }
