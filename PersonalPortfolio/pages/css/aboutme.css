@@ -29,11 +29,3 @@
 .description_group:hover {
     transform: translateY(-5px);
 }
-.aboutmebutton{
-    border-radius: 10px;
-    padding: 20px;
-    background-image: linear-gradient(white, rgba(0, 0, 0, 0));
-    height: auto;
-    width: 10%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
