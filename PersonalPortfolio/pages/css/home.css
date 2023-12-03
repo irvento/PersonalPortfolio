@@ -26,13 +26,11 @@
 
 
 .subtitle {
-    font-size: 300%;
     color: #f9f9f9;
     text-shadow: -1px 1px 15px rgba(0, 0, 0, 0.834);
     font-family: Georgia, serif;
     letter-spacing: 2px;
     word-spacing: 2px;
-    font-weight: 400;
     text-decoration: none;
     font-style: italic;
     font-variant: small-caps;
@@ -41,25 +39,17 @@
     margin-left: 10%;
     transition: color 0.3s ease-in-out;
 }
-
-.subtitle2 {
-    font-size: 2px;
-    color: #f9f9f9;
-    text-shadow: -1px 1px 15px rgba(0, 0, 0, 0.834);
-    font-family: Georgia, serif;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: italic;
-    font-variant: small-caps;
-    text-transform: lowercase;
-    margin-top: 5px;
-    margin-left: 10%;
-    transition: color 0.3s ease-in-out;
+.sub1{
+    font-size: 400%;
 }
 
-.subtitle:hover .subtitle2:hover {
+.sub1:hover {
+    color: #000000;
+    text-shadow: -1px 1px 15px rgba(255, 255, 255, 0.834);
+    font-size: 400%;
+}
+
+.subtitle:hover {
     background-image: linear-gradient(to right, rgba(250, 250, 250, 0.405), rgba(255, 255, 255, 0));
     border-radius: 10px;
     color: #000000;
@@ -71,6 +61,8 @@
     
     transition: transform 0.3s ease-in-out;
 }
+
+.home_headers
 
 
 
