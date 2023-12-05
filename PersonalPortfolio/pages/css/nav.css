@@ -7,10 +7,10 @@
     nav {
         background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.61) 0%, rgba(255, 255, 255, 0.703) 51%, rgba(0, 0, 0, 0.834) 100%);
-        padding: 20px; /* Increased padding for a larger navigation bar */
-        text-align: right; /* Align the content to the right */
+        padding: 20px; 
+        text-align: right; 
         height: 65px;
-        position: relative; /* Make sure the ::after pseudo-element is positioned relative to the nav */
+        position: relative;
     }
 
     .navigation {
