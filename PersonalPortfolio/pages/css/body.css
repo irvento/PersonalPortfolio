@@ -18,3 +18,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.aaa{
+    margin: 2% 2% 2% 2%;
+    flex: 1;
+}

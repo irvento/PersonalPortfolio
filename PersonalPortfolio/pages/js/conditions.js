@@ -27,3 +27,8 @@ document.addEventListener('keydown', function(event) {
       }
     }
   });
+  
+  function playAudio(audioSrc) {
+    var audio = new Audio(audioSrc);
+    audio.play();
+}
